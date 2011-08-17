@@ -1,0 +1,17 @@
+#Vim
+apt-get install vim -y
+
+#Git
+apt-get install git -y
+
+#Ruby
+apt-get install ruby
+apt-get install ruby-dev
+apt-get install ruby
+
+#Dotfiles
+cd ~
+mkdir .dofiles
+git clone git://github.com/egulias/dotfiles.git .
+cd .dotfiles
+setup.sh
